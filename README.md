@@ -28,8 +28,11 @@ Provide links to external resources, such as the band's social media profiles (c
 * User friendly navigation and responsive design
 
 ### Should-haves
+* Merchandise page with clear, navigable categories and external links for purchase
+* Success message to indicate a booking enquiry has been recieved. 
 
 ### Could-haves
+* Testimonials from users who have previously booked the band
 
 ## UX Design
 
@@ -64,4 +67,42 @@ Clicking the select menu on the merchandise page (in tablet and desktop view) wi
 To match the aesthetic and sound of the band, the website's colourscheme will match this contrast and  will contain 'Livid Brown' #412434 and 'Night Rider' 120808 background colours with contrasting footer sections. 
 
 The smaller text of the site will be 'White' #ffffff or Chartruse Yellow' #e5ff00 against the dark backgrounds to allow for contrast and readability. Large text highlights will be in 'Purple Pizzazz' #ff00d5
+
+## UI Design
+## Wireframes created using Balsamiq
+
+### Mobile view 
+[Mobile Homepage view] <img src="assets/images/Mobile - Home page.png">
+[Mobile Band biography view]
+<img src="assets/images/Mobile - Band Biography.png">
+[Mobile Merchandise view]
+<img src="assets/images/Mobile - Merchandise.png">
+[Mobile Booking Enquiry view]
+<img src="assets/images/Mobile - Booking Enquiry.png">
+[Mobile Success Message view]
+<img src="assets/images/Mobile - Success Message.png">
+
+
+### Tablet view
+[Tablet Homepage view]
+<img src="assets/images/Tablet - Home page.png">
+[Tablet Band biography view]
+<img src="assets/images/Tablet - Band Biography.png">
+[Tablet Merchandise view]
+<img src="assets/images/Tablet - Merchandise.png">
+[Tablet Booking Enquiry view]
+<img src="assets/images/Tablet - Booking Enquiry.png">
+[Tablet Success Message view]
+<img src="assets/images/Tablet - Success message.png">
+### Desktop view
+[Desktop Homepage view]
+<img src="assets/images/Desktop - Homepage.png">
+[Desktop Band biography view]
+<img src="assets/images/Desktop - Biography.png">
+[Desktop Merchandise view]
+<img src="assets/images/Desktop - Merchandise.png">
+[Desktop Booking Enquiry view]
+<img src="assets/images/Desktop - Booking Enquiry.png">
+[Desktop Success Message view]
+<img src="assets/images/Desktop - Success Message.png">
 
