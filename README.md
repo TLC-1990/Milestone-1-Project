@@ -18,6 +18,19 @@ Publicise the band's upcoming shows and/or availability to perform at events suc
 
 Provide links to external resources, such as the band's social media profiles (can point anywhere at all).
 
+## User Stories
+### Must-haves
+* A range of high-quality press and live photos of the band and their releases
+* A calendar of upcoming tour dates with links for users to buy tickets
+* Contact details (address, phone, email and social media links)
+* Booking enquiry form 
+* Playable video/audio links 
+* User friendly navigation and responsive design
+
+### Should-haves
+
+### Could-haves
+
 ## UX Design
 
 ### Strategy
