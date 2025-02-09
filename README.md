@@ -106,3 +106,9 @@ The smaller text of the site will be 'White' #ffffff or Chartruse Yellow' #e5ff0
 [Desktop Success Message view]
 <img src="assets/images/Desktop - Success Message.png">
 
+## Coding sources
+* Bootstrap
+* Code Institute lessons
+* Favicon
+* Font Awesome kit
+* Advice from Slack Overflow

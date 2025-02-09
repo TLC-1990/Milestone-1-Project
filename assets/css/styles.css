@@ -1,0 +1,13 @@
+/*Google Fonts import*/ 
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Rampart+One&display=swap');
+
+/*Gereral styles*/
+:root {
+    --primary-font: "Boogaloo", serif;
+    --secondary-font: "Rampart One", serif;
+    --primary-color: #412434; /* livid brown */
+    --secondary-color: #120808; /* night rider */
+    --highlight-color: #e5ff00; /* chartruse */
+    --highlight-color-light: #ffffff; /* white */
+    --highlight-color-headers: #ff00d5; /*chartruse*/
+}
