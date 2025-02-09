@@ -16,13 +16,18 @@
 
 body {
     font-family: var(--primary-font);
-    color: var(--highlight-color-light);
+    color: var(--secondary-color);
     background-color: var(--primary-color);
+    font-size: 20px;
+}
+h1, 
+h2 {text-align: center;
 }
 h1,
 h3 {
     font-family: var(--primary-font);
     color: var(--secondary-color);
+    text-transform: uppercase;
 }
 
 h2 { 
@@ -31,8 +36,16 @@ h2 {
 }
 /*Navbar*/
 #navbar {
-    background-color: var(--secondary-color);
+    background-color: #120808;
+    color: var(--highlight-color);
+    font-size: 30px;
+    align-items:end;
 }
-#navbar .logo{
-    width:30px;
+#navbar .logo {
+    width: 50px;
+}
+
+/*carousel*/
+#carousel-indicators {
+    color:var(--highlight-color);
 }
