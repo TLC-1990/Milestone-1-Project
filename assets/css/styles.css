@@ -5,9 +5,34 @@
 :root {
     --primary-font: "Boogaloo", serif;
     --secondary-font: "Rampart One", serif;
-    --primary-color: #412434; /* livid brown */
+    --primary-color: #96ad3c; /*sushi*/
     --secondary-color: #120808; /* night rider */
     --highlight-color: #e5ff00; /* chartruse */
     --highlight-color-light: #ffffff; /* white */
     --highlight-color-headers: #ff00d5; /*chartruse*/
+}
+
+/*Global styles*/
+
+body {
+    font-family: var(--primary-font);
+    color: var(--highlight-color-light);
+    background-color: var(--primary-color);
+}
+h1,
+h3 {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+
+h2 { 
+    font-family: var(--secondary-font);
+    color: var(--highlight-color-headers);
+}
+/*Navbar*/
+#navbar {
+    background-color: var(--secondary-color);
+}
+#navbar .logo{
+    width:30px;
 }

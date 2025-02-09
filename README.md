@@ -64,7 +64,7 @@ The active page will be highlighted in the navbar.
 Clicking the select menu on the merchandise page (in tablet and desktop view) will take the user to the specific merchandise section. 
 
 ### Surface
-To match the aesthetic and sound of the band, the website's colourscheme will match this contrast and  will contain 'Livid Brown' #412434 and 'Night Rider' 120808 background colours with contrasting footer sections. 
+To match the aesthetic and sound of the band, the website's colourscheme will match this contrast and  will contain 'Livid Brown' #412434 and 'Night Rider' #120808 background colours with contrasting footer sections. 
 
 The smaller text of the site will be 'White' #ffffff or Chartruse Yellow' #e5ff00 against the dark backgrounds to allow for contrast and readability. Large text highlights will be in 'Purple Pizzazz' #ff00d5
 
