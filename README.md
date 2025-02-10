@@ -54,7 +54,7 @@ Each page will include a footer with contact information (address, email and pho
 The homepage, biography page and merchandise page will also include a button link to the enquiry page to book the band for events. 
 
 ### Structure
-??????
+(See Wireframes section below)
 
 ### Skeleton
 
@@ -74,7 +74,7 @@ The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' 
 ### Mobile view 
 [Mobile Homepage view] <img src="">
 [Mobile Band biography view]
-<img src="">
+<img src="readme_images/mobile-home-page.png">
 [Mobile Merchandise view]
 <img src="">
 [Mobile Booking Enquiry view]
@@ -85,7 +85,7 @@ The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' 
 
 ### Tablet view
 [Tablet Homepage view]
-<img src="">
+<img src="readme_images/tablet-home-page.png">
 [Tablet Band biography view]
 <img src="">
 [Tablet Merchandise view]
@@ -96,7 +96,7 @@ The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' 
 <img src="">
 ### Desktop view
 [Desktop Homepage view]
-<img src="">
+<img src="readme_images/desktop-homepage.png">
 [Desktop Band biography view]
 <img src="">
 [Desktop Merchandise view]
