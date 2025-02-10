@@ -64,47 +64,47 @@ The active page will be highlighted in the navbar.
 Clicking the select menu on the merchandise page (in tablet and desktop view) will take the user to the specific merchandise section. 
 
 ### Surface
-To match the aesthetic and sound of the band, the website's colourscheme will match this contrast and  will contain 'Livid Brown' #412434 and 'Night Rider' #120808 background colours with contrasting footer sections. 
+To match the aesthetic and sound of the band, the website's colourscheme will match this contrast and  will contain 'Sushi' #96ad3c and 'Night Rider' #120808 background colours with contrasting footer sections. 
 
-The smaller text of the site will be 'White' #ffffff or Chartruse Yellow' #e5ff00 against the dark backgrounds to allow for contrast and readability. Large text highlights will be in 'Purple Pizzazz' #ff00d5
+The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' #e5ff00 against the contrasting backgrounds to allow for readability. Large text highlights will be in 'Purple Pizzazz' #ff00d5
 
 ## UI Design
 ## Wireframes created using Balsamiq
 
 ### Mobile view 
-[Mobile Homepage view] <img src="assets/images/Mobile - Home page.png">
+[Mobile Homepage view] <img src="">
 [Mobile Band biography view]
-<img src="assets/images/Mobile - Band Biography.png">
+<img src="">
 [Mobile Merchandise view]
-<img src="assets/images/Mobile - Merchandise.png">
+<img src="">
 [Mobile Booking Enquiry view]
-<img src="assets/images/Mobile - Booking Enquiry.png">
+<img src="">
 [Mobile Success Message view]
-<img src="assets/images/Mobile - Success Message.png">
+<img src="">
 
 
 ### Tablet view
 [Tablet Homepage view]
-<img src="assets/images/Tablet - Home page.png">
+<img src="">
 [Tablet Band biography view]
-<img src="assets/images/Tablet - Band Biography.png">
+<img src="">
 [Tablet Merchandise view]
-<img src="assets/images/Tablet - Merchandise.png">
+<img src="">
 [Tablet Booking Enquiry view]
-<img src="assets/images/Tablet - Booking Enquiry.png">
+<img src="">
 [Tablet Success Message view]
-<img src="assets/images/Tablet - Success message.png">
+<img src="">
 ### Desktop view
 [Desktop Homepage view]
-<img src="assets/images/Desktop - Homepage.png">
+<img src="">
 [Desktop Band biography view]
-<img src="assets/images/Desktop - Biography.png">
+<img src="">
 [Desktop Merchandise view]
-<img src="assets/images/Desktop - Merchandise.png">
+<img src="">
 [Desktop Booking Enquiry view]
-<img src="assets/images/Desktop - Booking Enquiry.png">
+<img src="">
 [Desktop Success Message view]
-<img src="assets/images/Desktop - Success Message.png">
+<img src="">
 
 ## Coding sources
 * Bootstrap

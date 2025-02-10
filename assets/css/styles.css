@@ -1,15 +1,20 @@
-/*Google Fonts import*/ 
+/*Google Fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Rampart+One&display=swap');
 
 /*Gereral styles*/
 :root {
     --primary-font: "Boogaloo", serif;
     --secondary-font: "Rampart One", serif;
-    --primary-color: #96ad3c; /*sushi*/
-    --secondary-color: #120808; /* night rider */
-    --highlight-color: #e5ff00; /* chartruse */
-    --highlight-color-light: #ffffff; /* white */
-    --highlight-color-headers: #ff00d5; /*chartruse*/
+    --primary-color: #96ad3c;
+    /*sushi*/
+    --secondary-color: #120808;
+    /* night rider */
+    --highlight-color: #e5ff00;
+    /* chartruse */
+    --highlight-color-light: #ffffff;
+    /* white */
+    --highlight-color-headers: #ff00d5;
+    /*chartruse*/
 }
 
 /*Global styles*/
@@ -17,12 +22,16 @@
 body {
     font-family: var(--primary-font);
     color: var(--secondary-color);
+    display: flex;
     background-color: var(--primary-color);
     font-size: 20px;
 }
-h1, 
-h2 {text-align: center;
+
+h1,
+h2 {
+    text-align: center;
 }
+
 h1,
 h3 {
     font-family: var(--primary-font);
@@ -30,22 +39,24 @@ h3 {
     text-transform: uppercase;
 }
 
-h2 { 
+h2 {
     font-family: var(--secondary-font);
     color: var(--highlight-color-headers);
 }
+
 /*Navbar*/
 #navbar {
     background-color: #120808;
     color: var(--highlight-color);
     font-size: 30px;
-    align-items:end;
+    align-items: end;
 }
+
 #navbar .logo {
     width: 50px;
 }
 
 /*carousel*/
 #carousel-indicators {
-    color:var(--highlight-color);
+    color: var(--highlight-color);
 }
