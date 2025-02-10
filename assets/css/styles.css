@@ -57,6 +57,11 @@ h2 {
 }
 
 /*carousel*/
+
+.carousel-size-adjust {
+    width: 300px;
+}
+
 #carousel-indicators {
     color: var(--highlight-color);
 }
