@@ -59,7 +59,8 @@ h2 {
 /*carousel*/
 
 .carousel-size-adjust {
-    width: 300px;
+    width: 75%;
+    height: auto;
 }
 
 #carousel-indicators {
