@@ -33,7 +33,7 @@ p {
     margin-right: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    font-size: 1em;
+    font-size: 1.5em;
     display: flex;
 }
 
@@ -59,6 +59,8 @@ h2 {
     color: var(--highlight-color-headers);
 }
 
+
+
 /*Navbar*/
 #navbar {
     background-color: #120808;
@@ -76,7 +78,7 @@ h2 {
 
 .carousel-inner {
     height: 0;
-    padding-bottom: 75%;
+    padding-bottom: 65%;
 }
 
 .carousel-item {
@@ -94,4 +96,14 @@ h2 {
 
 #carousel-indicators {
     color: var(--highlight-color);
+}
+
+/*Intro section*/
+.intro-image {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 24px;
+    display: flex;
+    padding-left: 0;
+    gap: 50px;
 }
