@@ -24,12 +24,27 @@ body {
     color: var(--secondary-color);
     display: flex;
     background-color: var(--primary-color);
-    font-size: 20px;
+}
+
+p {
+    width: 100%;
+    text-align: start;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    display: flex;
+}
+
+main {
+    display: flex;
 }
 
 h1,
 h2 {
     text-align: center;
+    margin: 2rem;
 }
 
 h1,
@@ -50,6 +65,7 @@ h2 {
     color: var(--highlight-color);
     font-size: 30px;
     align-items: end;
+    display: flex;
 }
 
 #navbar .logo {
@@ -58,9 +74,22 @@ h2 {
 
 /*carousel*/
 
-.carousel-size-adjust {
-    width: 75%;
-    height: auto;
+.carousel-inner {
+    height: 0;
+    padding-bottom: 75%;
+}
+
+.carousel-item {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: contain;
 }
 
 #carousel-indicators {
