@@ -127,7 +127,19 @@ iframe {
     width: 100% !important;
 }
 
-/*Intro section*/
+/*Buttons*/
+.custom-button-filled {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+    padding: 7px 25px;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--highlight-color-headers);
+    color: white;
+}
 
 
 /*Footer/contact*/
