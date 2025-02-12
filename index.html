@@ -105,7 +105,7 @@
           </div>
           <section class="container">
             <div class="row">
-              <div class="card col-sm-6" style="width: 18rem;">
+              <div class="card" style="width: 18rem;">
                 <img src="assets/images/band-photos/eye-yamatsuka-visual-artist.webp" class="card-img-top"
                   alt="Image of Eye Yamastuka using a mace to create noise onstage">
                 <div class="card-body">
@@ -114,7 +114,7 @@
                 </div>
               </div>
             </div>
-            <div class="card col-sm-6" style="width: 18rem;">
+            <div class="card" style="width: 18rem;">
               <img src="assets/images/band-photos/mitsuru-tabata-guitarist.webp" class="card-img-top"
                 alt="Hanatarash guitarist, Mitsuru Tabata, seated while playing an electric guitar">
               <div class="card-body">
@@ -124,47 +124,104 @@
               </div>
             </div>
           </section>
+          <section>
+            <div class="container">
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/jEW5dx-wZxE?si=233GtZ2IvSfStr5N" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </section>
+          <br>
+          <section>
+            <div class="container">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"><em>Date</em></th>
+                    <th scope="col"><em>Venue</em></th>
+                    <th scope="col"><em>City</em></th>
+                    <th scope="col"><em>Tickets Link</em></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">03/05/25</th>
+                    <td>The Fleece</td>
+                    <td>Bristol, UK</td>
+                    <td><a href="http://dice.fm" target="_blank">Ticket Link</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">05/05/25</th>
+                    <td>Chalk</td>
+                    <td>Brighton, UK</td>
+                    <td><a href="http://dice.fm" target="_blank">Ticket Link</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">06/05/25</th>
+                    <td>Village Underground</td>
+                    <td>London, UK</td>
+                    <td><a href="http://dice.fm" target="_blank">Ticket Link</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">09/05/25</th>
+                    <td>Bataclan</td>
+                    <td>Paris, FR</td>
+                    <td><a href="http://dice.fm" target="_blank">Ticket Link</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
   </main>
   <!-- Footer / contact section -->
   <!-- mt-auto added to push footer to the bottom of the page -->
-  <footer id=" contact" class="mt-auto">
-    <div class="container section">
+  <footer class="mt-auto">
+    <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 text-center">
-          <h2 class="display-6">Contact Us!</h2>
+        <div class="col-12">
+          <h2>Contact Us!</h2>
         </div>
+        <!-- address -->
+        <div class="col-12 col-md-6 col-xl-4">
+          <p><em>Address</em><br>
+            Japan, 154-0011 Tokyo, <br>
+            Setagaya City, Kamiuma, <br>
+            1 Chome−35−13 </p>
+        </div>
+        <!--Phone number, email address and media links-->
+        <div class="col-12 col-md-6 col-xl-4">Opening times</div>
       </div>
     </div>
-  </footer>
 
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-  </script>
-  <!-- Font Awesome kit -->
-  <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
-  <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-  <script>
-    document
-      .querySelectorAll(".navbar-collapse .nav-link")
-      .forEach((link) => {
-        link.addEventListener("click", function (e) {
-          let section = document.querySelector(e.target.getAttribute("href"));
-          if (section) {
-            e.preventDefault(); // Prevent default anchor click behavior
-            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-            window.scroll({
-              top: section.offsetTop - navbarHeight, // Adjust for navbar height
-              behavior: "smooth",
-            });
-            document
-              .querySelector(".navbar-collapse")
-              .classList.remove("show"); // Collapse navbar
-          }
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+      document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+          link.addEventListener("click", function (e) {
+            let section = document.querySelector(e.target.getAttribute("href"));
+            if (section) {
+              e.preventDefault(); // Prevent default anchor click behavior
+              let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+              window.scroll({
+                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                behavior: "smooth",
+              });
+              document
+                .querySelector(".navbar-collapse")
+                .classList.remove("show"); // Collapse navbar
+            }
+          });
         });
-      });
-  </script>
+    </script>
 </body>
 
 </html>

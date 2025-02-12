@@ -102,6 +102,21 @@ h2 {
     display: inline-block;
 }
 
+.card-img-top {
+    width: 18rem;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+}
+
 /*Intro section*/
 .intro-image {
     height: 300px;
