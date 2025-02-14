@@ -24,6 +24,10 @@ body {
     color: var(--secondary-color);
     display: flex;
     background-color: var(--primary-color);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 p {
@@ -41,7 +45,23 @@ p {
 
 main {
     display: flex;
+    background-color: orange;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     position: relative
+}
+
+.records-section {
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 2em;
 }
 
 h1,
@@ -115,6 +135,7 @@ footer {
     height: 300px;
 }
 
+
 /*Youtube video*/
 .container {
     display: flex;
@@ -153,7 +174,7 @@ iframe {
     color: var(--highlight-color-headers);
 }
 
-/*Media queries*/
+
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
