@@ -146,6 +146,12 @@ footer {
     height: 300px;
 }
 
+/*merchandise cards*/
+#merchandise .card {
+    font-size: 10px;
+    border: var(--highlight-color);
+}
+
 
 /*Youtube video*/
 .container {
