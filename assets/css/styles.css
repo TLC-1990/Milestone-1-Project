@@ -96,6 +96,11 @@ footer {
     width: 100%;
 }
 
+.nav-container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
 #navbar .logo {
     width: 50px;
 }
@@ -122,6 +127,11 @@ footer {
 
 #carousel-indicators {
     color: var(--highlight-color);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    display: none;
 }
 
 /*introduction cards*/
@@ -163,6 +173,9 @@ iframe {
     color: white;
 }
 
+.btn-lg {
+    margin-bottom: 15px;
+}
 
 /*Footer/contact*/
 #contact .social-links i {
