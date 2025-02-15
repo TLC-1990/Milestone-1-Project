@@ -93,6 +93,7 @@ footer {
     font-size: 30px;
     align-items: end;
     display: flex;
+    width: 100%;
 }
 
 #navbar .logo {
