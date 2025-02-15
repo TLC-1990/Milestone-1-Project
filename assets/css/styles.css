@@ -147,7 +147,7 @@ footer {
 }
 
 /*merchandise cards*/
-#merchandise .card {
+.merchandise .card {
     font-size: 10px;
     border: var(--highlight-color);
 }
