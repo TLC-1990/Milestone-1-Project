@@ -148,8 +148,9 @@ footer {
 
 /*merchandise cards*/
 .merchandise .card {
-    font-size: 10px;
+    font-size: 12px;
     border: var(--highlight-color);
+    min-height: 424.5px;
 }
 
 
