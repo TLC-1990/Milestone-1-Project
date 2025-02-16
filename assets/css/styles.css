@@ -43,6 +43,7 @@ p {
     display: flex;
 }
 
+
 main {
     display: flex;
     background-color: orange;
@@ -62,6 +63,41 @@ main {
     width: 100%;
     max-width: 1200px;
     padding: 2em;
+}
+
+.biography {
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 40px;
+
+}
+
+.biography img {
+    max-height: 350px;
+    min-width: 300px;
+    border: solid 2px var(--highlight-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.artwork {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.artwork img {
+    margin-left: 5%;
+    margin-right: 50px;
 }
 
 h1,
