@@ -94,6 +94,8 @@ footer {
     align-items: end;
     display: flex;
     width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 .nav-container {
@@ -157,6 +159,11 @@ footer {
     min-height: 424.5px;
 }
 
+/*success page*/
+.success {
+    font-size: 25px;
+    text-align: center;
+}
 
 /*Youtube video*/
 .container {
@@ -186,6 +193,7 @@ iframe {
 
 .btn-lg {
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 /*Footer/contact*/
