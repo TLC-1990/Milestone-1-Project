@@ -148,7 +148,6 @@ footer {
     max-height: 100%;
     padding: 0 0;
     max-width: 100%;
-    flex-shrink: 1;
 }
 
 /*carousel*/
@@ -264,6 +263,11 @@ iframe {
     #introduction .card {
         flex-direction: column;
     }
+
+    .artwork {
+        flex-direction: column;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -277,6 +281,10 @@ iframe {
     #introduction .card {
         flex-direction: row;
     }
+
+    .artwork {
+        flex-direction: column;
+    }
 }
 
 
@@ -286,6 +294,10 @@ iframe {
     /* Make all service cards the same height for consistency */
     #introduction .card-body {
         min-height: auto;
+    }
+
+    .artwork {
+        flex-direction: row;
     }
 
 }
@@ -298,6 +310,10 @@ iframe {
         min-height: 220px;
     }
 
+    .artwork {
+        flex-direction: row;
+    }
+
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
@@ -306,6 +322,10 @@ iframe {
     /* make all service cards the same height for consistency */
     #introduction .card-body {
         min-height: 195px;
+    }
+
+    .artwork {
+        flex-direction: row;
     }
 
 }
