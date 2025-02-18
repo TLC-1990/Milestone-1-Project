@@ -59,7 +59,7 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 text-center text-xl-start">
                 <h2 class="display-2">Book Us!</h2>
-                <p class="my-4">
+                <p>
                     We are available to play weddings, birthdays and building demolitions. We'll even bring our own
                     tools!
                     Please send your event enquiries using the form below. Use the message section to provide us with as
@@ -70,39 +70,39 @@
         </header>
         <main>
             <!-- Booking inquiry form section -->
-            <section id="booking-form" class="container section">
+            <section id="booking-form" class="container-fluid container-section">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8">
                         <h2>Booking enquiry</h2>
                         <form action="success.html" method="GET">
                             <div class="row">
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-lg-6">
                                     <label for="name" class="form-label">First Name</label>
                                     <input class="form-control" id="name" name="name" type="text" required>
                                 </div>
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-lg-6">
                                     <label for="name" class="form-label">Last Name</label>
                                     <input class="form-control" id="name" name="name" type="text" required>
                                 </div>
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-lg-6">
                                     <label for="email" class="form-label">Email</label>
                                     <input class="form-control" id="email" name="email" type="email" required>
                                 </div>
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-lg-6">
                                     <label for="phone" class="form-label">Phone number</label>
-                                    <input class="form-control" id="phone" name="phone" type="number">
+                                    <input class="form-control" id="phone" name="phone" type="number" optional>
                                 </div>
-                                <div class="col-12 mb-3">
+                                <div class="col-12">
                                     <label for="message" class="form-label">Message</label>
                                     <textarea class="form-control" rows="6" id="message" name="message"
                                         required></textarea>
                                 </div>
-                                <div class="col-12 col-lg-6 mb-3">
+                                <div class="col-12 col-lg-6">
                                     <label for="startDate">Start</label>
-                                    <input id="startDate" class="form-control" type="date" />
+                                    <input id="startDate" class="form-control" type="date" required />
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6 mb-3">
+                            <div class="col-12 col-lg-6">
                                 <button type="submit"
                                     class="btn custom-button-filled btn-outline-dark btn-lg">Submit</button>
                             </div>

@@ -105,7 +105,7 @@
         </div>
         <section class="container-section" id="introduction">
           <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="col-sm-6 mb-sm-0">
               <div class="card">
                 <img src="assets/images/band-photos/eye-yamatsuka-visual-artist.webp" class="card-img-top"
                   alt="Image of Eye Yamastuka using a mace to create noise onstage">
@@ -133,7 +133,6 @@
           <div class="container">
             <div class="ratio ratio-16x9">
               <iframe src="https://www.youtube.com/embed/jEW5dx-wZxE?si=233GtZ2IvSfStr5N" title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
@@ -192,7 +191,7 @@
           </div>
         </section>
         <div class="d-grid gap-2 col-2 mx-auto">
-          <a Book type="button" class="btn custom-button-filled btn-outline-dark btn-lg" href="booking.html"
+          <a class="btn custom-button-filled btn-outline-dark btn-lg" href="booking.html"
             aria-label="A link to the booking page">Book Us!</a>
         </div>
   </main>
@@ -206,10 +205,12 @@
         </div>
         <!-- address -->
         <div class="col-12 col-md-6 col-xl-4">
-          <p><strong>Address</strong><br>
+          <p>
+            <strong>Address</strong><br>
             Japan, 154-0011 Tokyo, <br>
             Setagaya City, Kamiuma, <br>
-            1 Chome−35−13 </p>
+            1 Chome−35−13
+          </p>
         </div>
         <!--Phone number, email address and media links-->
         <div class="col-12 col-md-6 col-xl-4">
@@ -217,45 +218,50 @@
           <p>Phone: +81 3-6875-3181 </p>
           <div class="social-links mt-4">
             <a href="https://www.instagram.com" target="_blank"
-              aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                class="fa-brands fa-instagram"></i></a>
+              aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
             <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"
-              rel="noopener"><i class="fa-brands fa-square-facebook"></i></a>
+              rel="noopener">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
             <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
-              rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+              rel="noopener">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
           </div>
         </div>
       </div>
     </div>
+  </footer>
 
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-    <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-    <script>
-      document
-        .querySelectorAll(".navbar-collapse .nav-link")
-        .forEach((link) => {
-          link.addEventListener("click", function (e) {
-            let section = document.querySelector(e.target.getAttribute("href"));
-            if (section) {
-              e.preventDefault(); // Prevent default anchor click behavior
-              let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-              window.scroll({
-                top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                behavior: "smooth",
-              });
-              document
-                .querySelector(".navbar-collapse")
-                .classList.remove("show"); // Collapse navbar
-            }
-          });
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+  <!-- Font Awesome kit -->
+  <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+  <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+  <script>
+    document
+      .querySelectorAll(".navbar-collapse .nav-link")
+      .forEach((link) => {
+        link.addEventListener("click", function (e) {
+          let section = document.querySelector(e.target.getAttribute("href"));
+          if (section) {
+            e.preventDefault(); // Prevent default anchor click behavior
+            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+            window.scroll({
+              top: section.offsetTop - navbarHeight, // Adjust for navbar height
+              behavior: "smooth",
+            });
+            document
+              .querySelector(".navbar-collapse")
+              .classList.remove("show"); // Collapse navbar
+          }
         });
-    </script>
+      });
+  </script>
 </body>
 
 </html>
