@@ -255,8 +255,8 @@ iframe {
 
 /* Media queries */
 
-/*Small devices (phones, 576px and smaller) */
-@media screen and (max-width: 767px) {
+/*Small devices (phones, 576px and smaller and up) */
+@media screen and (min-width: 576px) {
     #introduction .card {
         flex-direction: column;
     }
@@ -265,8 +265,8 @@ iframe {
         flex-direction: column;
     }
 
-    #merchandise .card {
-        flex-direction: column;
+    .merchandise .card {
+        flex-direction: column !important;
     }
 }
 
@@ -286,6 +286,10 @@ iframe {
         flex-direction: column;
     }
 
+    .merchandise .card {
+        flex-direction: column !important;
+    }
+
 }
 
 
@@ -301,6 +305,9 @@ iframe {
         flex-direction: row;
     }
 
+    .merchandise .card {
+        flex-direction: row;
+    }
 }
 
 /* xl devices (large desktops, 1200px and up) */
@@ -311,10 +318,14 @@ iframe {
         min-height: 220px;
     }
 
+
     .artwork {
         flex-direction: row;
     }
 
+    .merchandise .card {
+        flex-direction: row;
+    }
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
@@ -326,6 +337,10 @@ iframe {
     }
 
     .artwork {
+        flex-direction: row;
+    }
+
+    .merchandise .card {
         flex-direction: row;
     }
 
