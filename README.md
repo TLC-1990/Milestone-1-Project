@@ -81,7 +81,7 @@ The active page will be highlighted in the navbar.
 Clicking the select menu on the merchandise page (in tablet and desktop view) will take the user to the specific merchandise section. 
 
 ### Surface
-To match the aesthetic and sound of the band, the website's colourscheme will match this contrast and  will contain 'Sushi' #96ad3c and 'Night Rider' #120808 background colours with contrasting footer sections. 
+To match the aesthetic and sound of the band, the website's colourscheme will match this contrast and  will contain 'Sushi' #96ad3c and 'Night Rider' #120808 background colours.
 
 The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' #e5ff00 against the contrasting backgrounds to allow for readability. Large text highlights will be in 'Purple Pizzazz' #ff00d5
 
@@ -124,8 +124,42 @@ The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' 
 <img src="readme_images/desktop-success-message.png">
 
 ## Coding sources
-* Bootstrap
-* Code Institute lessons
-* Favicon
-* Font Awesome kit
-* Advice from Slack Overflow
+* Code taken from Bootstrap v5.0 and heavily adapted/edited to fit needs of site (NavBar, merchandise page menu, carousel on homepage, table of events, cards on homepage and merchandise, booking form on booking page, buttons across pages)
+* Code Institute lessons - Code copied to prevent navbar collapse issue (Highlighted in boardwalk games project) 
+* Favicon was used to create the icon in page head.
+* Font Awesome kit was used for social media icons in footer (Instagram, X and Facebook)
+* Advice from Slack Overflow - 
+1. Adjusting embed code and styling css to ensure Youtube video remains responsive across screentypes. 
+https://stackoverflow.com/questions/70863997/make-youtube-video-embed-responsive/77289689#77289689
+
+/*Youtube video*/
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+}
+
+2. Issues faced with carousel images havign inconsistent size during transitions.
+https://stackoverflow.com/questions/73561420/how-to-make-images-the-same-height-in-a-bootstrap-5-carousel 
+
+.carousel-inner {
+    height: 0;
+    padding-bottom: 65%;
+}
+
+.carousel-item {
+    position: absolute !important;...}
+
+* Bootstrap Studio (bootstrapstudio.io)
+1.  Hiding the carousel-control-next/prev chevrons. 
+https://forum.bootstrapstudio.io/t/how-to-remove-previous-and-next-buttons-from-carousel/5416
+
+ .carousel-control-next,
+.carousel-control-prev {
+    display: none;
+}
