@@ -78,6 +78,7 @@ h2 {
 
 footer {
     display: flex;
+    flex-direction: column;
 }
 
 /*Navbar*/
@@ -189,8 +190,7 @@ footer {
 #introduction .card {
     margin-bottom: 10px;
     display: inline-block;
-    flex-shrink: 2;
-    max-width: 450px !important;
+    max-width: 350px !important;
 }
 
 .card-img-top {
