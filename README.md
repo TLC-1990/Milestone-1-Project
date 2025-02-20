@@ -1,23 +1,33 @@
 # Milestone Project 1- Website for the band, Hanatarash(i)
 
 # Menu of contents
-## 1. Purpose of project
-## 2. User Stories
+## 1. Deployment 
+## 2. Purpose of project
+## 3. User Stories
 ### 1. Must Haves
 ### 2. Should Haves
 ### 3. Could Haves
-## 3. UX Design
-## 4. UI Design
-## 5. Testing
+## 4. UX Design
+## 5. UI Design
+## 6. Testing
 ### 1. Coding Validation
 ### 2. Bugs found and resolved
-## 6. Next Step Features
-## 7. Coding Sources
-## 8. Media sources
-## 9. Acknowledgements
+## 7. Next Step Features
+## 8. Coding Sources
+## 9. Media sources
+## 10. Acknowledgements
+
+## 1. Deployment 
+ Project was deployed using GitHub and Visual Studio.
+
+### Live Site
+https://tlc-1990.github.io/Milestone-1-Project/
+
+<img src="readme_images/all-devices-black.png">
+(created using https://websitemockupgenerator.com/)
 
 
-## 1. Purpose
+## 2. Purpose
 To create a website to promote the band, Hanatarash(i), which showcases their music, videos, photos, merchandise, tour dates and availability for users to book them for events. 
 
 ## Criteria provided by Code Institute 
@@ -35,7 +45,7 @@ Publicise the band's upcoming shows and/or availability to perform at events suc
 
 Provide links to external resources, such as the band's social media profiles (can point anywhere at all).
 
-## 2. User Stories
+## 3. User Stories
 As a user, I want to see a range of photographs of the band and their releases so I can get a feel for who they are and their aesthetic. 
 
 As a user, I want to be able to see when the band are touring so I can book tickets for their shows and send enquiries for my own events. 
@@ -68,7 +78,7 @@ As a user, I would like to see testimonials from other people who have booked th
 ### 3. Could-haves
 * Testimonials from users who have previously booked the band
 
-## 3. UX Design
+## 4. UX Design
 
 ### Strategy
 The aim of the project is to promote the band by making users aware of their history, marketing their merchandise, creating awareness of thier upcoming gigs and allowing users to send booking enquiries for their own events. 
@@ -101,8 +111,13 @@ Clicking the select menu on the merchandise page (in tablet and desktop view) wi
 To match the aesthetic and sound of the band, the website's colourscheme will match this contrast and  will contain 'Sushi' #96ad3c and 'Night Rider' #120808 background colours.
 
 The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' #e5ff00 against the contrasting backgrounds to allow for readability. Large text highlights will be in 'Purple Pizzazz' #ff00d5
+<img src="readme_images/colour-palette.webp"> 
+(https://coolors.co/ used to create palette)
 
-## 4. UI Design
+#### Fonts 
+
+
+## 5. UI Design
 ## Initital wireframes created using Balsamiq
 
 ### Mobile view 
@@ -140,9 +155,15 @@ The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' 
 [Desktop Success Message view]
 <img src="readme_images/desktop-success-message.png">
 
-## 5. Testing 
-## 6. Next Step Features
-## 7. Coding Sources
+## 6. Testing 
+
+
+## 7. Next Step Features
+
+### 1. Add an area to booking.html with reviews from users who have previously booked the band. 
+### 2. Add a page with playable audio tracks and videos of other performances. 
+
+## 8. Coding Sources
 * Code taken from Bootstrap v5.0 and heavily adapted/edited to fit needs of site (NavBar, merchandise page menu, carousel on homepage, table of events, cards on homepage and merchandise, booking form on booking page, buttons across pages)
 * Code Institute lessons - Code copied to prevent navbar collapse issue (Highlighted in boardwalk games project) 
 * Favicon was used to create the icon in page head.
@@ -183,7 +204,10 @@ https://forum.bootstrapstudio.io/t/how-to-remove-previous-and-next-buttons-from-
     display: none;
 }
 
-## 8. Media Sources
+## 9. Media Sources
+
+Text in index.html and biography.html adapted from https://en.wikipedia.org/wiki/Hanatarash
+
 Band icon (for favicon) (colour edited)
 https://commons.wikimedia.org/wiki/File:Hanatarash_Logo.png
 
@@ -345,4 +369,4 @@ https://commons.wikimedia.org/wiki/File:Hanatarash_Logo.png
     </table>
 
 
-## 9. Acknowledgements 
+## 10. Acknowledgements 
