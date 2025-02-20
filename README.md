@@ -1,5 +1,22 @@
 # Milestone Project 1- Website for the band, Hanatarash(i)
 
+# Menu of contents
+## 1. Purpose of project
+## 2. User Stories
+### 1. Must Haves
+### 2. Should Haves
+### 3. Could Haves
+## 3. UX Design
+## 4. UI Design
+## 5. Testing
+### 1. Coding Validation
+### 2. Bugs found and resolved
+## 6. Next Step Features
+## 7. Coding Sources
+## 8. Media sources
+## 9. Acknowledgements
+
+
 ## Purpose
 To create a website to promote the band, Hanatarash(i), which showcases their music, videos, photos, merchandise, tour dates and availability for users to book them for events. 
 
