@@ -17,7 +17,7 @@
 ## 9. Acknowledgements
 
 
-## Purpose
+## 1. Purpose
 To create a website to promote the band, Hanatarash(i), which showcases their music, videos, photos, merchandise, tour dates and availability for users to book them for events. 
 
 ## Criteria provided by Code Institute 
@@ -35,7 +35,7 @@ Publicise the band's upcoming shows and/or availability to perform at events suc
 
 Provide links to external resources, such as the band's social media profiles (can point anywhere at all).
 
-## User Stories
+## 2. User Stories
 As a user, I want to see a range of photographs of the band and their releases so I can get a feel for who they are and their aesthetic. 
 
 As a user, I want to be able to see when the band are touring so I can book tickets for their shows and send enquiries for my own events. 
@@ -52,7 +52,7 @@ As a user, I want a success message to show after I have sent my enquiry so that
 
 As a user, I would like to see testimonials from other people who have booked the band so that I can make an informed decision about whether I would like to book them. 
 
-### Must-haves
+### 1. Must-haves
 * A range of high-quality press and live photos of the band and their releases
 * A calendar of upcoming tour dates with links for users to buy tickets
 * Contact details (address, phone, email and social media links)
@@ -61,14 +61,14 @@ As a user, I would like to see testimonials from other people who have booked th
 * User friendly navigation
 
 
-### Should-haves
+### 2. Should-haves
 * Merchandise page with clear, navigable categories and external links for purchase
 * Success message to indicate a booking enquiry has been recieved. 
 
-### Could-haves
+### 3. Could-haves
 * Testimonials from users who have previously booked the band
 
-## UX Design
+## 3. UX Design
 
 ### Strategy
 The aim of the project is to promote the band by making users aware of their history, marketing their merchandise, creating awareness of thier upcoming gigs and allowing users to send booking enquiries for their own events. 
@@ -102,7 +102,7 @@ To match the aesthetic and sound of the band, the website's colourscheme will ma
 
 The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' #e5ff00 against the contrasting backgrounds to allow for readability. Large text highlights will be in 'Purple Pizzazz' #ff00d5
 
-## UI Design
+## 4. UI Design
 ## Initital wireframes created using Balsamiq
 
 ### Mobile view 
@@ -140,8 +140,9 @@ The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' 
 [Desktop Success Message view]
 <img src="readme_images/desktop-success-message.png">
 
-## Coding sources
-<<<<<<< HEAD
+## 5. Testing 
+## 6. Next Step Features
+## 7. Coding Sources
 * Code taken from Bootstrap v5.0 and heavily adapted/edited to fit needs of site (NavBar, merchandise page menu, carousel on homepage, table of events, cards on homepage and merchandise, booking form on booking page, buttons across pages)
 * Code Institute lessons - Code copied to prevent navbar collapse issue (Highlighted in boardwalk games project) 
 * Favicon was used to create the icon in page head.
@@ -182,3 +183,96 @@ https://forum.bootstrapstudio.io/t/how-to-remove-previous-and-next-buttons-from-
     display: none;
 }
 
+## 8. Media Sources
+Band icon (for favicon)
+
+Band photos
+<table>
+  <caption>
+    Press, live and artwork photos/video
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Photo Title</th>
+      <th scope="col"> Relative Path </th>
+      <th scope="col">Source Link</th>
+      <th scope="col">Page Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">bulldozer-high-definition</th>
+      <td>assets/images/band-photos/bulldozer-high-definition.webp</td>
+      <td>https://i.redd.it/6vjwrxgaitp91.jpg</td>
+      <td>biography.html</td>
+    </tr>
+    <tr>
+      <th scope="row">eye-yamatsuka-bulldozer.webp</th>
+      <td>assets/images/band-photos/eye-yamatsuka-bulldozer.webp</td>
+      <td>https://i1.sndcdn.com/artworks-J0p8tAdo1t0zPVEc-YdMxvQ-t500x500.jpg</td>
+      <td>index.html</td>
+    </tr>
+    <tr>
+      <th scope="row">eye-yamatsuka-visual-artist.webp</th>
+      <td>assets/images/band-photos/eye-yamatsuka-visual-artist.webp</td>
+      <td>https://64.media.tumblr.com/4fb0f6209c51a669ad0772e438f71494/8c4ea8dee38e8d4b-8c/s540x810/718fbae313324016a5866c15ea50c6277f5b6a82.jpg</td>
+      <td>index.html</td>
+    </tr>
+    <tr>
+      <th scope="row">hanatarash-artwork.webp</th>
+      <td>assets/images/band-photos/hanatarash-artwork.webp</td>
+      <td>https://thumbs.worthpoint.com/zoom/images1/1/0711/17/hanatarash-shirt-m-xl-boredoms_1_246e727c54a71831831fa1e485792abc.jpg</td>
+      <td>biography.html</td>
+    </tr>
+    <tr>
+      <th scope="row">hanatarash-ball-chain.webp</th>
+      <td>assets/images/band-photos/hanatarash-ball-chain.webp</td>
+      <td>https://lastfm.freetls.fastly.net/i/u/ar0/8638f658baf802ae271bd60f3a7567e3.jpg</td>
+      <td>index.html</td>
+    </tr>
+    <tr>
+      <th scope="row">hanatarash-buzzsaw-show.webp</th>
+      <td>assets/images/band-photos/hanatarash-buzzsaw-show.webp</td>
+      <td>https://i1.sndcdn.com/artworks-0I4P3FQiC94GtVwi-NwVzvg-t500x500.jpg</td>
+      <td>index.html</td>
+    </tr>
+    <tr>
+      <th scope="row">hanatarash-exile2.webp</th>
+      <td>assets/images/band-photos/hanatarash-exile2.webp</td>
+      <td>https://kansaitachinomiyadivebar.com/wp-content/uploads/2014/06/hanatarash-exile2.jpg</td>
+      <td>biography.html</td>
+    </tr>
+    <tr>
+      <th scope="row">hanatarash-live-digger.webp</th>
+      <td>assets/images/band-photos/hanatarash-live-digger.webp</td>
+      <td>https://www.vice.com/wp-content/uploads/sites/2/2023/05/1682944418467-198584-10hanatarashi.jpeg</td>
+      <td>biography.html</td>
+    </tr>
+    <tr>
+      <th scope="row">hanatarash-noisexa.webp</th>
+      <td>assets/images/band-photos/hanatarash-noisexa.webp</td>
+      <td>https://tape-mag.com/bilder/gross/Hanatarash_Noisexa.jpg</td>
+      <td>biography.html</td>
+    </tr>
+    <tr>
+      <th scope="row">mitsuru-tabata-guitarist.webp</th>
+      <td>assets/images/band-photos/mitsuru-tabata-guitarist.webp</td>
+      <td>https://www.psychedelicbabymag.com/wp-content/uploads/2021/12/Mitsuru-Tabata-7.jpg</td>
+      <td>index.html</td>
+    </tr>
+    <tr>
+      <th scope="row">the-most-dangerous-band-of-all-time.webp</th>
+      <td>assets/images/band-photos/the-most-dangerous-band-of-all-time.webp</td>
+      <td>https://faroutmagazine.co.uk/static/uploads/1/2021/06/The-most-dangerous-band-of-all-time.jpg</td>
+      <td>biography.html</td>
+    </tr>
+    <tr>
+      <th scope="row">(VIDEO) Hanatarash, Shibuya Tokyo 1985</th>
+      <td>Embedded video</td>
+      <td>https://www.youtube.com/embed/jEW5dx-wZxE?si=233GtZ2IvSfStr5N"</td>
+      <td>index.html/td>
+    </tr>
+  </tbody>
+</table>
+
+## 9. Acknowledgements 
