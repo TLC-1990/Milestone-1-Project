@@ -19,13 +19,30 @@ Publicise the band's upcoming shows and/or availability to perform at events suc
 Provide links to external resources, such as the band's social media profiles (can point anywhere at all).
 
 ## User Stories
+As a user, I want to see a range of photographs of the band and their releases so I can get a feel for who they are and their aesthetic. 
+
+As a user, I want to be able to see when the band are touring so I can book tickets for their shows and send enquiries for my own events. 
+
+As a user, I want to be able to directly contact the band for any equiries outside of booking them for events. I also want access to their social media links so I can follow them on different platforms. 
+
+As a user, I want playable video/audio links which will give me an idea of the band's sound and genre. 
+
+As a user, I want the website to be user-friendly and easy to navigate and return to home. This will keep me on the site for longer. 
+
+As a user, I want to be able to view and learn about available merchandise and then buy it. 
+
+As a user, I want a success message to show after I have sent my enquiry so that I know it has been sent successfully. 
+
+As a user, I would like to see testimonials from other people who have booked the band so that I can make an informed decision about whether I would like to book them. 
+
 ### Must-haves
 * A range of high-quality press and live photos of the band and their releases
 * A calendar of upcoming tour dates with links for users to buy tickets
 * Contact details (address, phone, email and social media links)
 * Booking enquiry form 
 * Playable video/audio links 
-* User friendly navigation and responsive design
+* User friendly navigation
+
 
 ### Should-haves
 * Merchandise page with clear, navigable categories and external links for purchase
@@ -69,42 +86,42 @@ To match the aesthetic and sound of the band, the website's colourscheme will ma
 The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' #e5ff00 against the contrasting backgrounds to allow for readability. Large text highlights will be in 'Purple Pizzazz' #ff00d5
 
 ## UI Design
-## Wireframes created using Balsamiq
+## Initital wireframes created using Balsamiq
 
 ### Mobile view 
 [Mobile Homepage view] <img src="">
 [Mobile Band biography view]
 <img src="readme_images/mobile-home-page.png">
 [Mobile Merchandise view]
-<img src="">
+<img src="readme_images/mobile-merchandise.png">
 [Mobile Booking Enquiry view]
-<img src="">
+<img src="readme_images/mobile-booking-enquiry.png">
 [Mobile Success Message view]
-<img src="">
+<img src="readme_images/mobile-success-message.png">
 
 
 ### Tablet view
 [Tablet Homepage view]
 <img src="readme_images/tablet-home-page.png">
 [Tablet Band biography view]
-<img src="">
+<img src="readme_images/tablet-band-biography.png">
 [Tablet Merchandise view]
-<img src="">
+<img src="readme_images/tablet-merchandise.png">
 [Tablet Booking Enquiry view]
-<img src="">
+<img src="readme_images/tablet-booking-enquiry.png">
 [Tablet Success Message view]
-<img src="">
+<img src="readme_images/tablet-success-message.png">
 ### Desktop view
 [Desktop Homepage view]
 <img src="readme_images/desktop-homepage.png">
 [Desktop Band biography view]
-<img src="">
+<img src="readme_images/desktop-biography.png">
 [Desktop Merchandise view]
-<img src="">
+<img src="readme_images/desktop-merchandise.png">
 [Desktop Booking Enquiry view]
-<img src="">
+<img src="readme_images/desktop-booking-enquiry.png">
 [Desktop Success Message view]
-<img src="">
+<img src="readme_images/desktop-success-message.png">
 
 ## Coding sources
 * Bootstrap

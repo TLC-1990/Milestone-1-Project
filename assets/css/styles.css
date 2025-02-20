@@ -47,7 +47,6 @@ p {
 
 main {
     display: flex;
-    background-color: orange;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -109,7 +108,6 @@ footer {
 
 .records-section {
     display: flex;
-    background-color: red;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -121,7 +119,6 @@ footer {
 /*biography classes*/
 .biography {
     display: flex;
-    background-color: aqua;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -273,7 +270,7 @@ iframe {
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Make all service cards the same height for consistency */
+    /* Make Introduction cards the same height across different screen types for consistency */
     #introduction .card-body {
         min-height: 191px;
     }
