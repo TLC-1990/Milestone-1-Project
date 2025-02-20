@@ -184,9 +184,10 @@ https://forum.bootstrapstudio.io/t/how-to-remove-previous-and-next-buttons-from-
 }
 
 ## 8. Media Sources
-Band icon (for favicon)
+Band icon (for favicon) (colour edited)
+https://commons.wikimedia.org/wiki/File:Hanatarash_Logo.png
 
-Band photos
+### Photos
 <table>
   <caption>
     Press, live and artwork photos/video
@@ -274,5 +275,74 @@ Band photos
     </tr>
   </tbody>
 </table>
+
+### Merchandise
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Photo Title</th>
+      <th scope="col"> Relative Path </th>
+      <th scope="col">Source Link</th>
+      <th scope="col">Page Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">hanatarash-3.webp</th>
+      <td>assets/images/merchandise/hanatarash-3.webp</td>
+      <td>https://lastfm.freetls.fastly.net/i/u/500x500/b6fbfd346842a44df5a867e9f801560a.jpg</td>
+      <td>merchandise.html</td>
+    </tr>
+    <tr>
+      <th scope="row">hanatarash-5.webp</th>
+      <td>assets/images/merchandise/hanatarash-5.webp</td>
+      <td>https://m.media-amazon.com/images/I/41ctXm25f+L._UF1000,1000_QL80_.jpg</td>
+      <td>merchandise.html</td>
+    </tr>
+    <tr>
+      <th scope="row">we-are-hardcore.webp</th>
+      <td>assets/images/merchandise/we-are-hardcore.webp</td>
+      <td>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRStnL0Qj-Te_AKIJxHjG7veTgWeB9lqwEZEQ&s</td>
+      <td>merchandise.html</td>
+    </tr>
+    <tr>
+      <th scope="row">tshirt-1.webp</th>
+      <td>assets/images/merchandise/tshirt-1.webp</td>
+      <td>(Redbubble) https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSuV_vMafePhEo17a_N_YlUIO60H0o3pTcxJgJHdYjORQU3Sb-cSUgt9ZTDd06xU9YnaBYxbYk67DCTBEbBpitR9o7LnTbMeYi5M_c-uYsARvdJalEzqVA&usqp=CAc (2)</td>
+      <td>merchandise.html</td>
+    </tr>
+    <tr>
+      <th scope="row">tshirt-2.webp</th>
+      <td>assets/images/merchandise/tshirt-2.webp</td>
+      <td>(Redbubble) https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSMElsGY0tc9NOWxy_sYO5z-ZZX_X0EvlVfgwMyWZMuMFW08gz3hA4cHyxXXrG99PfyHSMkYZIr1aI3opzZP-TYJGKy39dO1tr1Gs5TicY6syJEUO5qI4GI&usqp=CAc</td>
+      <td>merchandise.html</td>
+    </tr>
+    <tr>
+      <th scope="row">tshirt-3.webp</th>
+      <td>assets/images/merchandise/tshirt-3.webp</td>
+      <td>(Redbubble) https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSMElsGY0tc9NOWxy_sYO5z-ZZX_X0EvlVfgwMyWZMuMFW08gz3hA4cHyxXXrG99PfyHSMkYZIr1aI3opzZP-TYJGKy39dO1tr1Gs5TicY6syJEUO5qI4GI&usqp=CAc </td>
+      <td>merchandise.html</td>
+    </tr>
+    <tr>
+      <th scope="row">ongaloo-book.webp</th>
+      <td>assets/images/merchandise/ongaloo-book.webp</td>
+      <td>https://pictures.abebooks.com/isbn/9784898151976-uk.jpg</td>
+      <td>merchandise.html</td>
+    </tr>
+    <tr>
+      <th scope="row">this-bird-knows-rabbit.webp.png</th>
+      <td>assets/images/merchandise/this-bird-know-rabbit-book.webp.png</td>
+      <td>https://www.lespressesdureel.com/EN/ouvrage.php?id=7503&menu=0</td>
+      <td>merchandise.html</td>
+    </tr>
+    <tr>
+      <th scope="row">hanatarash-pin.webp</th>
+      <td>assets/images/merchandise/hanatarash-pin.webp</td>
+      <td>https://ih1.redbubble.net/image.4186532667.4475/ur,pin_large_front,square,600x600.u3.jpg</td>
+      <td>merchandise.html</td>
+    </tr>
+    </table>
+
 
 ## 9. Acknowledgements 
