@@ -265,6 +265,9 @@ iframe {
         flex-direction: column;
     }
 
+    #merchandise .card {
+        flex-direction: column;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -282,6 +285,7 @@ iframe {
     .artwork {
         flex-direction: column;
     }
+
 }
 
 

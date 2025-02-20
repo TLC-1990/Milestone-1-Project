@@ -108,13 +108,18 @@ The active page will be highlighted in the navbar.
 Clicking the select menu on the merchandise page (in tablet and desktop view) will take the user to the specific merchandise section. 
 
 ### Surface
-To match the aesthetic and sound of the band, the website's colourscheme will match this contrast and  will contain 'Sushi' #96ad3c and 'Night Rider' #120808 background colours.
+To match the aesthetic and sound of the band, the website's colourscheme will match this contrast and  will contain 'Sushi' #96ad3c (recognised as #97AB3E on coolors) and 'Night Rider' #120808 (recognised as #160C09 on coolors) background colours.
 
 The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' #e5ff00 against the contrasting backgrounds to allow for readability. Large text highlights will be in 'Purple Pizzazz' #ff00d5
 <img src="readme_images/colour-palette.webp"> 
 (https://coolors.co/ used to create palette)
 
 #### Fonts 
+Primary font: "Boogaloo", serif
+Secondary font: "Rampart One", serif
+
+<img src="readme_images/font-choices.webp">
+
 
 
 ## 5. UI Design
