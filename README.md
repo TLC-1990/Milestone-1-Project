@@ -1,5 +1,22 @@
 # Milestone Project 1- Website for the band, Hanatarash(i)
 
+# Menu of contents
+## 1. Purpose of project
+## 2. User Stories
+### 1. Must Haves
+### 2. Should Haves
+### 3. Could Haves
+## 3. UX Design
+## 4. UI Design
+## 5. Testing
+### 1. Coding Validation
+### 2. Bugs found and resolved
+## 6. Next Step Features
+## 7. Coding Sources
+## 8. Media sources
+## 9. Acknowledgements
+
+
 ## Purpose
 To create a website to promote the band, Hanatarash(i), which showcases their music, videos, photos, merchandise, tour dates and availability for users to book them for events. 
 
@@ -124,6 +141,7 @@ The smaller text of the site will be 'Night Rider' #120808 or Chartruse Yellow' 
 <img src="readme_images/desktop-success-message.png">
 
 ## Coding sources
+<<<<<<< HEAD
 * Code taken from Bootstrap v5.0 and heavily adapted/edited to fit needs of site (NavBar, merchandise page menu, carousel on homepage, table of events, cards on homepage and merchandise, booking form on booking page, buttons across pages)
 * Code Institute lessons - Code copied to prevent navbar collapse issue (Highlighted in boardwalk games project) 
 * Favicon was used to create the icon in page head.
@@ -163,3 +181,4 @@ https://forum.bootstrapstudio.io/t/how-to-remove-previous-and-next-buttons-from-
 .carousel-control-prev {
     display: none;
 }
+
