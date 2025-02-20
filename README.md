@@ -2,7 +2,9 @@
 
 # Menu of contents
 ## 1. Deployment 
-## 2. Purpose of project
+### 1. Live Site Link
+### 2. Responsiveness Screenshots
+## 2. Purpose of Project
 ## 3. User Stories
 ### 1. Must Haves
 ### 2. Should Haves
@@ -20,11 +22,64 @@
 ## 1. Deployment 
  Project was deployed using GitHub and Visual Studio.
 
-### Live Site
+### 1. Live Site
 https://tlc-1990.github.io/Milestone-1-Project/
 
 <img src="readme_images/all-devices-black.png">
 (created using https://websitemockupgenerator.com/)
+
+### 2. Responsiveness Screenshots
+index.html
+
+Small Screen Size (i.e. phone)
+<img src="readme_images/responsiveness-images/Homepage-Pixel-7-Pro-480x3347.png">
+
+Medium Screen Size (i.e. tablet)
+<img src="readme_images/responsiveness-images/Merchandise-iPad-Pro-11-581x3645.png">
+
+Large Screen Size (i.e. laptop/desktop)
+<img src="readme_images/responsiveness-images/Homepage-Macbook-Air-1559x3627.png">
+
+biography.html
+
+Small Screen Size (i.e. phone)
+<img src="readme_images/responsiveness-images/Biography-Pixel-7-Pro-480x4866.png">
+
+Medium Screen Size (i.e. tablet)
+<img src="readme_images/responsiveness-images/Biography-iPad-Pro-11-581x4701.png">
+
+Large Screen Size (i.e. laptop/desktop)
+
+<img src="readme_images/responsiveness-images/Biography-Macbook-Air-1559x3251.png">
+merchandise.html
+
+Small Screen Size (i.e. phone)<>
+
+<img src="readme_images/responsiveness-images/Merchandise-Pixel-7-Pro-480x6067.png">
+
+Medium Screen Size (i.e. tablet)
+
+<img src="readme_images/responsiveness-images/Merchandise-iPad-Pro-11-581x3645.png">
+
+Large Screen Size (i.e. laptop/desktop)
+
+<img src="readme_images/responsiveness-images/Merchandise-Macbook-Air-1559x3054.png">
+
+booking.html
+
+Small Screen Size (i.e. phone)<>
+
+Medium Screen Size (i.e. tablet)
+
+Large Screen Size (i.e. laptop/desktop)
+
+success.html
+
+Small Screen Size (i.e. phone)<>
+
+Medium Screen Size (i.e. tablet)
+
+Large Screen Size (i.e. laptop/desktop)
 
 
 ## 2. Purpose
@@ -123,7 +178,7 @@ Secondary font: "Rampart One", serif
 
 
 ## 5. UI Design
-## Initital wireframes created using Balsamiq
+## Initital design wireframes created using Balsamiq
 
 ### Mobile view 
 [Mobile Homepage view] <img src="">
@@ -161,6 +216,45 @@ Secondary font: "Rampart One", serif
 <img src="readme_images/desktop-success-message.png">
 
 ## 6. Testing 
+W3C Markup Validation Service 
+(https://validator.w3.org/) used for HTML validation
+
+Homepage (index.html)
+<img src="readme_images/validation/index-html-w3-validation.webp" >
+
+biography.html
+<img src="readme_images/validation/booking-html-w3-validation.webp">
+
+merchandise.html
+<img src="readme_images/validation/merchandise-html-w3-validation.webp">
+
+booking.html
+<img src="readme_images/validation/booking-html-w3-validation.webp">
+
+success.html
+<img src="readme_images/validation/success-html-w3-validator.webp">
+
+W3C CSS validation service
+(https://jigsaw.w3.org/css-validator/) used for CSS validation.
+<img src="readme_images/validation/css-validator.webp">
+
+Lighthouse scores
+
+Homepage (index.html)
+<img src="readme_images/validation/index-lighthouse.webp">
+
+biography.html
+<img src="readme_images/validation/biography-lighthouse.webp">
+
+merchandise.html
+<img src="readme_images/validation/merchandise-lighthouse.webp">
+
+booking.html
+<img src="readme_images/validation/booking-lighthouse.webp">
+
+success.html
+<img src="readme_images/validation/success-lighthouse.webp">
+
 
 
 ## 7. Next Step Features
@@ -172,6 +266,8 @@ Secondary font: "Rampart One", serif
 * Code taken from Bootstrap v5.0 and heavily adapted/edited to fit needs of site (NavBar, merchandise page menu, carousel on homepage, table of events, cards on homepage and merchandise, booking form on booking page, buttons across pages)
 * Code Institute lessons - Code copied to prevent navbar collapse issue (Highlighted in boardwalk games project) 
 * Favicon was used to create the icon in page head.
+* Balsamiq was used to create wireframes
+* Responsive Viewer Chrome add-on was used for responsiveness screenshots
 * Font Awesome kit was used for social media icons in footer (Instagram, X and Facebook)
 * Advice from Slack Overflow - 
 1. Adjusting embed code and styling css to ensure Youtube video remains responsive across screentypes. 

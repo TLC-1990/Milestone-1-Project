@@ -42,7 +42,6 @@ p {
     padding-right: 10px;
     font-size: 1.5em;
     display: flex;
-    background-color: red;
 }
 
 
@@ -55,7 +54,6 @@ main {
     position: relative;
     margin: 0;
     padding-right: 0;
-    background-color: aqua;
 }
 
 h1,
@@ -110,7 +108,6 @@ footer {
 
 .container-fluid {
     min-width: 100%;
-    background-color: yellow;
 }
 
 /*merchandise classes*/
