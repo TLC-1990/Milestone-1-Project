@@ -13,7 +13,7 @@
 ## 5. UI Design
 ## 6. Testing
 ### 1. Coding Validation
-### 2. Bugs found and resolved
+### 2. Bugs Found and Resolved
 ## 7. Next Step Features
 ## 8. Coding Sources
 ## 9. Media sources
@@ -53,7 +53,7 @@ Large Screen Size (i.e. laptop/desktop)
 <img src="readme_images/responsiveness-images/Biography-Macbook-Air-1559x3251.png">
 merchandise.html
 
-Small Screen Size (i.e. phone)<>
+Small Screen Size (i.e. phone)
 
 <img src="readme_images/responsiveness-images/Merchandise-Pixel-7-Pro-480x6067.png">
 
@@ -67,19 +67,28 @@ Large Screen Size (i.e. laptop/desktop)
 
 booking.html
 
-Small Screen Size (i.e. phone)<>
+Small Screen Size (i.e. phone)
+<img src="readme_images/responsiveness-images/Booking-Pixel-7-Pro-480x1040.png">
 
 Medium Screen Size (i.e. tablet)
+<img src="readme_images/responsiveness-images/Booking-iPad-Pro-11-581x1716.png">
 
 Large Screen Size (i.e. laptop/desktop)
+<img src="readme_images/responsiveness-images/Booking-Macbook-Air-1559x1547.png">
 
 success.html
 
-Small Screen Size (i.e. phone)<>
+Small Screen Size (i.e. phone)
+
+<img src="readme_images/responsiveness-images/Success-Pixel-7-Pro-480x1091.png">
 
 Medium Screen Size (i.e. tablet)
 
+<img src="readme_images/responsiveness-images/Success-iPad-Pro-11-581x1077.png">
+
 Large Screen Size (i.e. laptop/desktop)
+
+<img src="readme_images/responsiveness-images/Success-Macbook-Air-1559x1007.png">
 
 
 ## 2. Purpose
@@ -255,7 +264,10 @@ booking.html
 success.html
 <img src="readme_images/validation/success-lighthouse.webp">
 
-
+### 2. Bugs Found and Resolved
+1. Introduction cards overlapping on index.html. Max-width=350px in styles.css was causing overlapping when reducing screen size. New min-width set to 100%. Issue resolved.
+2. Artwork images in biography.html misaligning and not forming a column when moving from larger screen size to smaller screen size. Resolved by targetting in media queries (styles.css). Set flex-direction to column for small and medium size screens. 
+3.Booking.html bug causing the edge of the body section to show down right side, allowing for horizontal scrolling. Row div class updated to container-fluid.
 
 ## 7. Next Step Features
 
@@ -471,3 +483,5 @@ https://commons.wikimedia.org/wiki/File:Hanatarash_Logo.png
 
 
 ## 10. Acknowledgements 
+* Dr Raghav Kovvuri (HE Lecturer- Computing at University Centre of Peterborough) for support and advice throughout the course. 
+* Iuliia Konovalova, my wonderful, knowledgeable (and very patient) mentor.
