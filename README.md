@@ -225,6 +225,9 @@ Secondary font: "Rampart One", serif
 <img src="readme_images/desktop-success-message.png">
 
 ## 6. Testing 
+
+Website checked on Safari and on Chrome on desktop and on IOS (Apple mobile). No bugs observed between browsers. 
+
 W3C Markup Validation Service 
 (https://validator.w3.org/) used for HTML validation
 
@@ -251,6 +254,7 @@ Lighthouse scores
 
 Homepage (index.html)
 <img src="readme_images/validation/index-lighthouse.webp">
+Responsiveness affected by embedded YouTube video.
 
 biography.html
 <img src="readme_images/validation/biography-lighthouse.webp">
@@ -297,7 +301,7 @@ iframe {
     width: 100% !important;
 }
 
-2. Issues faced with carousel images havign inconsistent size during transitions.
+2. Issues faced with carousel images having inconsistent size during transitions.
 https://stackoverflow.com/questions/73561420/how-to-make-images-the-same-height-in-a-bootstrap-5-carousel 
 
 .carousel-inner {
