@@ -40,6 +40,9 @@ Medium Screen Size (i.e. tablet)
 Large Screen Size (i.e. laptop/desktop)
 <img src="readme_images/responsiveness-images/Homepage-Macbook-Air-1559x3627.png">
 
+XL Screen Size
+<img src="readme_images/responsiveness-images/Booking-xl-Screen-1920x1511.png">
+
 biography.html
 
 Small Screen Size (i.e. phone)
@@ -51,6 +54,10 @@ Medium Screen Size (i.e. tablet)
 Large Screen Size (i.e. laptop/desktop)
 
 <img src="readme_images/responsiveness-images/Biography-Macbook-Air-1559x3251.png">
+
+XL Screen Size 
+
+<img src="readme_images/responsiveness-images/Biography-xl-Screen-1920x3304.png">
 merchandise.html
 
 Small Screen Size (i.e. phone)
@@ -59,11 +66,14 @@ Small Screen Size (i.e. phone)
 
 Medium Screen Size (i.e. tablet)
 
-<img src="readme_images/responsiveness-images/Merchandise-iPad-Pro-11-581x3645.png">
+<img src="readme_images/responsiveness-images/Merchandise-iPad-Pro-11-581x5988.png">
 
 Large Screen Size (i.e. laptop/desktop)
 
 <img src="readme_images/responsiveness-images/Merchandise-Macbook-Air-1559x3054.png">
+
+XL Screen Size
+<img src="readme_images/responsiveness-images/Homepage-xl-Screen-1920x3077.png">
 
 booking.html
 
@@ -75,6 +85,9 @@ Medium Screen Size (i.e. tablet)
 
 Large Screen Size (i.e. laptop/desktop)
 <img src="readme_images/responsiveness-images/Booking-Macbook-Air-1559x1547.png">
+
+XL Screen Size
+<img src="readme_images/responsiveness-images/Booking-xl-Screen-1920x1511.png">
 
 success.html
 
@@ -90,6 +103,9 @@ Large Screen Size (i.e. laptop/desktop)
 
 <img src="readme_images/responsiveness-images/Success-Macbook-Air-1559x1007.png">
 
+XL Screen Size 
+
+<img src="readme_images/responsiveness-images/Success-xl-Screen-1920x1080.png">
 
 ## 2. Purpose
 To create a website to promote the band, Hanatarash(i), which showcases their music, videos, photos, merchandise, tour dates and availability for users to book them for events. 
